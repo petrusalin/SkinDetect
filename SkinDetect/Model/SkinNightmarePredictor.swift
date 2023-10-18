@@ -15,6 +15,7 @@ class Obs: ObservableObject {
     
 }
 
+
 final class SkinNightmarePredictor {
     
     // MARK: - Qualification Result

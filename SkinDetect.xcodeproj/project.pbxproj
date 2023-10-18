@@ -15,11 +15,22 @@
 		6A357CB72AD56F2F000DD4AC /* SkinNightmarePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A357CB62AD56F2F000DD4AC /* SkinNightmarePredictor.swift */; };
 		6A3664392AD6D8C700D4F6E6 /* PhotoSheetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3664382AD6D8C700D4F6E6 /* PhotoSheetType.swift */; };
 		6A36643B2AD6D90F00D4F6E6 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A36643A2AD6D90F00D4F6E6 /* ResultView.swift */; };
+		6A3D54302AE00BC20091EC44 /* SkinDetectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3D542F2AE00BC20091EC44 /* SkinDetectTests.swift */; };
 		6A4E82352ADD5A30006512D7 /* SkinNightmare.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E82342ADD5A30006512D7 /* SkinNightmare.mlmodel */; };
 		6A9BC48F2AD9250E00FD8315 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9BC48E2AD9250E00FD8315 /* SplashScreen.swift */; };
 		6A9BC4952AD92A7B00FD8315 /* BackgroundGradientModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9BC4942AD92A7B00FD8315 /* BackgroundGradientModifier.swift */; };
 		6A9BC4972AD932AD00FD8315 /* PickerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9BC4962AD932AD00FD8315 /* PickerControlView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A3D54312AE00BC20091EC44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A357C992AD55391000DD4AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A357CA02AD55391000DD4AC;
+			remoteInfo = SkinDetect;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6A357CA12AD55391000DD4AC /* SkinDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +42,8 @@
 		6A357CB62AD56F2F000DD4AC /* SkinNightmarePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinNightmarePredictor.swift; sourceTree = "<group>"; };
 		6A3664382AD6D8C700D4F6E6 /* PhotoSheetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSheetType.swift; sourceTree = "<group>"; };
 		6A36643A2AD6D90F00D4F6E6 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		6A3D542D2AE00BC20091EC44 /* SkinDetectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinDetectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3D542F2AE00BC20091EC44 /* SkinDetectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinDetectTests.swift; sourceTree = "<group>"; };
 		6A4E82342ADD5A30006512D7 /* SkinNightmare.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkinNightmare.mlmodel; sourceTree = "<group>"; };
 		6A9BC48E2AD9250E00FD8315 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		6A9BC4932AD9279300FD8315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +59,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A3D542A2AE00BC20091EC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				6A357CA32AD55391000DD4AC /* SkinDetect */,
+				6A3D542E2AE00BC20091EC44 /* SkinDetectTests */,
 				6A357CA22AD55391000DD4AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				6A357CA12AD55391000DD4AC /* SkinDetect.app */,
+				6A3D542D2AE00BC20091EC44 /* SkinDetectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +107,14 @@
 				6A357CAB2AD55393000DD4AC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A3D542E2AE00BC20091EC44 /* SkinDetectTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A3D542F2AE00BC20091EC44 /* SkinDetectTests.swift */,
+			);
+			path = SkinDetectTests;
 			sourceTree = "<group>";
 		};
 		6A9BC4902AD9251500FD8315 /* Views */ = {
@@ -137,6 +167,24 @@
 			productReference = 6A357CA12AD55391000DD4AC /* SkinDetect.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6A3D542C2AE00BC20091EC44 /* SkinDetectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3D54332AE00BC20091EC44 /* Build configuration list for PBXNativeTarget "SkinDetectTests" */;
+			buildPhases = (
+				6A3D54292AE00BC20091EC44 /* Sources */,
+				6A3D542A2AE00BC20091EC44 /* Frameworks */,
+				6A3D542B2AE00BC20091EC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A3D54322AE00BC20091EC44 /* PBXTargetDependency */,
+			);
+			name = SkinDetectTests;
+			productName = SkinDetectTests;
+			productReference = 6A3D542D2AE00BC20091EC44 /* SkinDetectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +197,10 @@
 				TargetAttributes = {
 					6A357CA02AD55391000DD4AC = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					6A3D542C2AE00BC20091EC44 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6A357CA02AD55391000DD4AC;
 					};
 				};
 			};
@@ -166,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				6A357CA02AD55391000DD4AC /* SkinDetect */,
+				6A3D542C2AE00BC20091EC44 /* SkinDetectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +230,13 @@
 			files = (
 				6A357CAC2AD55393000DD4AC /* Preview Assets.xcassets in Resources */,
 				6A357CA92AD55393000DD4AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3D542B2AE00BC20091EC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +260,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A3D54292AE00BC20091EC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3D54302AE00BC20091EC44 /* SkinDetectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A3D54322AE00BC20091EC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A357CA02AD55391000DD4AC /* SkinDetect */;
+			targetProxy = 6A3D54312AE00BC20091EC44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6A357CAD2AD55393000DD4AC /* Debug */ = {
@@ -347,7 +423,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alin.petrus.SkinDetectMl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.SkinDetectMl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -380,11 +456,47 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alin.petrus.SkinDetectMl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.SkinDetectMl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A3D54342AE00BC20091EC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U24R3KDQV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alin.petrus.SkinDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinDetect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkinDetect";
+			};
+			name = Debug;
+		};
+		6A3D54352AE00BC20091EC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U24R3KDQV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alin.petrus.SkinDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinDetect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkinDetect";
 			};
 			name = Release;
 		};
@@ -405,6 +517,15 @@
 			buildConfigurations = (
 				6A357CB02AD55393000DD4AC /* Debug */,
 				6A357CB12AD55393000DD4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A3D54332AE00BC20091EC44 /* Build configuration list for PBXNativeTarget "SkinDetectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3D54342AE00BC20091EC44 /* Debug */,
+				6A3D54352AE00BC20091EC44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
