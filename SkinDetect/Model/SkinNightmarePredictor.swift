@@ -11,11 +11,6 @@ import Foundation
 import UIKit
 import Vision
 
-class Obs: ObservableObject {
-    
-}
-
-
 final class SkinNightmarePredictor {
     
     // MARK: - Qualification Result
@@ -28,8 +23,6 @@ final class SkinNightmarePredictor {
     
     
     // MARK: - Properties
-    
-    @Published var obs = Obs()
     
     private let model: VNCoreMLModel
     
