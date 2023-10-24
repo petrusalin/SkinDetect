@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "610741D7-1CC5-473B-A825-431FF8D63E3B": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "B2A087DD-4059-46B7-92E3-922D18D59D6F": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "SkinClasification.mlmodel",
+            "path": "com.apple.CoreML/SkinClasification.mlmodel"
+        },
+        "D76DCDEF-B33B-4812-B3F2-272148302B47": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        }
+    },
+    "rootModelIdentifier": "B2A087DD-4059-46B7-92E3-922D18D59D6F"
+}
